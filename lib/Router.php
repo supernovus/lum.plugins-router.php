@@ -6,7 +6,7 @@ use Lum\Router as LR;
 
 class Router extends LR\Router
 {
-  public $default_placeholder = LR\Vars::MODERN_PLACEHOLDER;
+  public $default_placeholder = LR\Vars::CLASSIC_PLACEHOLDER;
 
   public $route_methods = 
   [
