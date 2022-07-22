@@ -1,0 +1,31 @@
+{
+  "name": "lum/lum-plugins-router",
+  "description": "A Core plugin for the Router library",
+  "license": "MIT",
+  "authors":
+  [
+    {
+      "name": "Timothy Totten",
+      "email": "supernovus@gmail.com",
+      "role": "Original Author"
+    }
+  ],
+  "require":
+  {
+    "lum/lum-router": "^1.0"
+  },
+  "autoload":
+  {
+    "psr-4":
+    {
+      "Lum\\Plugins\\": "lib"
+    }
+  },
+  "extra":
+  {
+    "branch-alias":
+    {
+      "dev-main": "1.x-dev"
+    }
+  }
+}
